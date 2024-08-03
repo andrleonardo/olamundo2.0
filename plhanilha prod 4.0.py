@@ -55,7 +55,7 @@ Qual a quantida quer tirar hoje?
         else:
          print('VALOR INCORRETO,PADRÃO MANTIDO ESTEIRAS =110.')
          paodia=110
-    if dia >5:
+    if dia >=5:
            print('''
 OK PUXEI AQUI QUE É FINAL DE SEMANA
 ''')
@@ -255,7 +255,7 @@ SENTIMOS MUITO MAS O VALOR ESTÁ ABAIXO DO DEPOSITADO
                   print('Ok valor depositado')
                else:
                  print('Ok Até Logo')
-         if bolso > depositar:
+         if bolso >= depositar:
             bolso= bolso - depositar
             saldo= saldo + depositar
             print('Ok valor depositado')
